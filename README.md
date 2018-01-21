@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project builds a series of posts whose authors are hidden until a user signs in.
 
-Things you may want to cover:
+In addition, `members-only` utilizes:
 
-* Ruby version
+* An authentication system for user sign up and log in
 
-* System dependencies
+* Dynamic views which change based on a user's log in status
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Password encryption

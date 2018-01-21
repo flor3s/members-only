@@ -1,0 +1,13 @@
+<h1>All posts</h1>
+<%= link_to 'New post', 'posts/new' %>
+  <% @posts.each do |post| %>
+  	<tr>
+   	 	<% if current_user %>
+				<p>By <%= logged_in? ? post.user.name : "Anonymous" %></p>
+			<% else %>
+				<p>By Anonymous</p>
+			<% end %>
+		<p><%= post.body %></p>
+    </tr>
+  <% end %>
+</table>
