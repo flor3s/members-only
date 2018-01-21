@@ -8,4 +8,6 @@ In addition, `members-only` utilizes:
 
 * Dynamic views which change based on a user's log in status
 
-* Password encryption
+* Relational database management 
+
+* Login encryption (password, cookies)
